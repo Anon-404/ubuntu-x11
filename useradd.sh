@@ -141,6 +141,6 @@ note(){
 
 banner
 pkgInstaller
-addpkginstaller
+#addpkginstaller
 usr
 note
