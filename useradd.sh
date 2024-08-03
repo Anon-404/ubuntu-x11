@@ -45,7 +45,7 @@ addpkginstaller(){
     read opt1
 
     if [[ "$opt1" == "y" || "$opt1" == "Y" ]]; then
-        for prg in php clang gcc python-is-python3 nodejs npm default-jdk
+        for prg in php clang gcc python-is-python3 nodejs default-jdk
         do
             echo ""
             echo -e "${yellow}[+] ${green}Installing $prg${white}"
