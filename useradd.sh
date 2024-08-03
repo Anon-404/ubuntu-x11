@@ -41,7 +41,7 @@ msinstall(){
 
 
 addpkginstaller(){
-    echo -e "${yellow}[+] ${green}Do you want to install additional packages (programming languages)? (y/n): \c"
+    echo -e "${yellow}[+] ${green}Do you want to install additional packages (programming languages)? (y/N): \c"
     read opt1
 
     if [[ "$opt1" == "y" || "$opt1" == "Y" ]]; then
@@ -60,7 +60,7 @@ addpkginstaller(){
         exit 1
     fi
 
-    echo -e "${yellow}[+] ${green}Do you want to install penetration testing tools (hacking tools)? (y/n): \c"
+    echo -e "${yellow}[+] ${green}Do you want to install penetration testing tools (hacking tools)? (y/N): \c"
     read opt2
 
     if [[ "$opt2" == "y" || "$opt2" == "Y" ]]; then
@@ -141,6 +141,6 @@ note(){
 
 banner
 pkgInstaller
-#addpkginstaller
+addpkginstaller
 usr
 note
