@@ -57,7 +57,7 @@ bash useradd.sh
 ubuntu
 ```
 ```bash
-sudo bash gui.sh
+sudo bash desktop.sh
 ```
 - Step 4 : Install termux-x11 app from [Here](https://github.com/termux/termux-x11/releases/download/nightly/app-universal-debug.apk)
 
