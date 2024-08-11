@@ -76,7 +76,7 @@ vscode(){
     fi
 }
 
-}
+
 
 note(){
    # creating x11-start file
