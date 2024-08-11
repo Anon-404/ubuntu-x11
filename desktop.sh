@@ -76,17 +76,15 @@ vscode(){
     fi
 }
 
+}
+
 note(){
    # creating x11-start file
    touch x11-start
    echo "#! /bin/bash" >> x11-start
    echo "export DISPLAY=:1" >> x11-start
-   echo "xfce4-session > /dev/null 2&>1 &" >> x11-start
-
-   echo "#! /bin/bash" >> x11-stop
-   echo "xfce4-session-logout --logout" >> x11-stop
-
-   chmod 777 x11-start x11-stop && mv x11-stop x11-start /usr/bin
+   echo "xfce4-session > /dev/null 2&>1 " >> x11-start
+   chmod 777 x11-start && mv x11-start /usr/bin
 
    banner
    echo -e "${yellow}[+] ${green}install ${cyan}termux x11${green} app from github"
@@ -95,7 +93,8 @@ note(){
    echo ""
    echo -e "${yellow}[+] ${green}open ${cyan}termux x11 ${green}app and enjoy"
    echo ""
-   echo -e "${yellow}[+] ${green}stop x11 service by typing ${cyan}x11-stop"
+   echo -e "${yellow}[+] ${green}stop x11 service by ${cyan}CTRL + C"
+   echo ""
 }
 
 envsetup(){
