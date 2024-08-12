@@ -73,9 +73,6 @@ x11-start
 
 #### Note
 
-- To stop x11 just run
-```bash
-x11-stop
-```
+- To stop x11 press `CTRL + C`
 
 ## provided by team Anon404
