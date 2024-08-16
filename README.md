@@ -28,6 +28,7 @@ Say fuck you to kali nethunter users of 10GB 🥱
 [+] VLC Media Player<br>
 [+] Get some awesome themes<br>
 [+] Firefox<br>
+[+] Easy to install <br>
 
 ## Installation
 
@@ -43,25 +44,7 @@ chmod 777 *
 bash ubuntu-x11.sh
 ```
 
-- Step 3 : After installing ubuntu just run following commands 👇
-
-```bash
-ubuntu
-```
-```bash
-bash useradd.sh
-```
-### Note : Now we will install gui on our ubuntu
-
-```bash
-ubuntu
-```
-```bash
-sudo bash desktop.sh
-```
-- Step 4 : Install termux-x11 app from [Here](https://github.com/termux/termux-x11/releases/download/nightly/app-universal-debug.apk)
-
-- Step 5 : exit termux then open again and run following commands
+- Step 3 : exit termux then open again and run following commands
 
 ```bash
 ubuntu
@@ -69,7 +52,9 @@ ubuntu
 ```bash
 x11-start
 ```
-- Step 6 : open termux-x11 app to access desktop environment
+- Step 4 : install [termux-x11](https://github.com/termux/termux-x11/releases/download/nightly/app-universal-debug.apk) app
+
+- Step 5 : open termux-x11 app to access desktop environment
 
 #### Note
 
