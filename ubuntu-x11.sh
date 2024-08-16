@@ -337,8 +337,8 @@ cleanup(){
 main(){
     banner
     pkgInstaller
-    #vscode
-    #firefox
+    vscode
+    firefox
     envsetup
     fixSound
     cleanup
