@@ -102,6 +102,7 @@ allowExternal(){
 }
 
 userAdding(){
+    pd sh ubuntu --shared-tmp -- /bin/bash -c ' dpkg --configure -a '
     banner
     echo -e "${yellow}[+] ${green}Installing basic packages on ubuntu ${white}"
     echo ""
